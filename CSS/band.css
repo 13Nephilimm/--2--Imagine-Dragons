@@ -1,0 +1,159 @@
+/***********************************/
+/* GENERAL */
+/***********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Rokkitt", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    background-color: #EFE6F6;
+}
+
+/***********************************/
+/* NAVIGATION */
+/***********************************/
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 888;
+}
+
+.nav-box {
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    /* GRADIENT */
+    background: hsla(274, 100%, 3%, 1);
+    background: linear-gradient(0deg, hsla(274, 100%, 3%, 1) 60%, hsla(274, 56%, 45%, 1) 90%);
+    background: -moz-linear-gradient(0deg, hsla(274, 100%, 3%, 1) 60%, hsla(274, 56%, 45%, 1) 90%);
+    background: -webkit-linear-gradient(0deg, hsla(274, 100%, 3%, 1) 60%, hsla(274, 56%, 45%, 1) 90%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#090010", endColorstr="#7d33b5", GradientType=1 );
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: #BE99DA;
+    font-size: 2.4rem;
+    letter-spacing: 0.5px;
+    padding: 1.8rem 1.8rem 0rem 1.8rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    background-color: #EFE6F6;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -0.7rem;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    color: #EFE6F6;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/***********************************/
+/* BAND MEMBERS */
+/***********************************/
+
+.band-members {
+    padding: 1.2rem;
+}
+
+.main-header {
+    font-size: 8rem;
+    line-height: 1;
+    color: #5e3d78;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.name {
+    font-size: 4.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.text {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.member {
+    margin-top: 4.8rem;
+    display: flex;
+    gap: 4.8rem;
+    padding: 1.8rem;
+}
+
+.img {
+    width: 100%;
+    border: 3px solid #5e3d78;
+    border-radius: 8px;
+}
+
+/***********************************/
+/* FOOTER */
+/***********************************/
+
+.copyright {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #767676;
+    margin-top: 8rem;
+}
+
+.footer {
+    padding: 8rem;
+    border-top: 3px solid #250f36;
+    background-color: #EFE6F6;
+}
+
+.footer-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 0; 
+}
+
+.footer-header {
+    color: #090010;
+    font-size: 3.6rem;
+    margin-bottom: 3.2rem;
+    font-weight: 500;
+}
+
+.logo {
+    width: 4.8rem;
+    height: 4.8rem;
+}
+
+.ig {
+    color: #A50044;
+}
+
+.fb {
+    color: #004D98;
+}

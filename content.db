@@ -1,0 +1,31 @@
+- - - COLORS - - -
+
+Main Color: #7D33B5
+
+Shades: #090010 / 
+
+Tints: #9D66C8 / #BE99DA / #EFE6F6 /
+
+
+- - - TEXT - - -
+
+Font-weight: 200 / 400 / 500 / 600 / 700
+
+
+Font-family: Rokkitt
+
+Code: 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@200;400;500;600;700&display=swap" rel="stylesheet">\
+
+
+- - - CONTENT - - -
+
+Hero Header: WELCOME TO THE NEW AGE!
+
+Hero Text: 
+Imagine Dragons is a Grammy award-winning alternative rock band which formed in 2008 in 
+Las Vegas, Nevada, United States. The band consists of Dan Reynolds, Wayne Sermon, 
+Ben McKee and Daniel Platzman. Today's statistics shows that Imagine Dragons have sold 
+35 million RIAA certified singles in the US and 20 million albums worldwide.
